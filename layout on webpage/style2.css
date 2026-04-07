@@ -1,0 +1,22 @@
+.flexbox{
+   background-color: aqua;
+   font-size: 35px;
+   flex-wrap: wrap;
+   flex-direction: column-reverse;
+   align-items: flex-end;
+   display: flex; 
+   justify-content: space-around;
+}
+/*.flexbox>div{
+    background-color: brown;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    flex-grow: 1;
+}
+.flexbox>div:nth-child(5){
+    order: 1;
+}*/
+.box2{
+    flex-grow: 2;
+}

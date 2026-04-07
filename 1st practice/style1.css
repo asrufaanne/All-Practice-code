@@ -1,0 +1,44 @@
+.p1{
+    border: 8px solid red; 
+    width: 19;
+    margin: auto;
+    
+}
+p{
+    border: 8px solid blue;
+    max-width: 19;
+    margin: auto;}
+.box1{
+   width: 199px; 
+   height: 199px;
+   background-color: green;
+   position: relative;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+}
+.box2{
+   width: 149px; 
+   height: 149px;
+   background-color:red;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   border: radius 5%;
+   margin: auto; 
+}
+
+.name{
+    color:white;
+    background-color: blueviolet;
+    border: 4px solid black;
+    position: sticky;
+    margin-top: 10;
+    width: 100px; 
+    
+}
+.p2{
+    padding-bottom: 1000px;
+}

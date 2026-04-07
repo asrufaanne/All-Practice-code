@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>My First Web Page</title>
+</head>
+<body>
+    <h4 style="text-align: center;"><b>Sign up form</b></h4>
+    <hr><br><br>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Enter your email" required><br>
+        <label for="pass">Passward:</label>
+        <input type="password" id="pass" placeholder="Enter your pass" required><br>
+        <label for="phn">Phone:</label><br>
+        <select name="code">
+            <option value="+088">+088</option>
+            <option value="+099">+099</option>
+            <option value="+011">+011</option>
+
+        </select>
+        <input type="number" id="phn" placeholder="Enter your phn number" required><br>
+        <label for="country">Country:</label>
+        <input list="con">
+        <datalist id="con">
+            <option value="Bangladesh"></option>
+            <option value="India"></option>
+            <option value="Canada"></option>
+
+        </datalist><br>
+        Gender:
+        <input type="radio" id="gen" name="Gender">
+        <label for="gen"> Male</label>
+        <input type="radio" id="gen" name="Gender">
+        <lebal for="gen">Female</label>
+        <input type="radio" id="gen" name="Gender">
+         <lebal for="gen">others</label><br>
+        
+        <label for="birth">Birthday:</label>
+        <input type="date" id="birth"><br>
+        <label for="time">Time:</label>
+        <input type="time" id="time"><br>
+        <label for="colr">Color:</label>
+        <input type="color" id="colr"><br>
+        <label for="file">Choose your photo:</label>
+        <input type="file" id="file"><br>
+        <input type="submit" value="Send">
+        <input type="submit" value="Reset"><br>
+
+        <textarea>
+            likho moner ktha
+        </textarea>
+ 
+        
+    </form>
+</body>

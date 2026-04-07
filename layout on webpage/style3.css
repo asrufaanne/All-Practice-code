@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main{
+    width: 75%;
+    margin: 10px auto;
+    border: 1px solid rosybrown; 
+    display: grid;
+    grid-template-rows: 60px 100px 200px 60px ;
+    grid-template-columns: repeat(3,1fr)150px;
+}
+.div1{
+    background-color: aqua;
+    grid-column: 1/-1;
+}
+.div2{
+    background-color: rgb(226, 68, 68);
+}
+.div3{
+    background-color: rgb(53, 32, 244);
+}
+.div4{
+    background-color: rgb(25, 239, 25);
+}
+.div5{
+    background-color: blueviolet;
+    grid-row: 2/4; grid-column: 4/5;
+}
+.div6{
+    background-color: burlywood;
+    grid-column: 1/4;
+}
+.div7{
+    background-color:purple;
+    grid-column: 1/-1;
+}

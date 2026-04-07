@@ -1,0 +1,13 @@
+.p1{
+    color: brown;
+    background-color: aqua;
+    font-weight: 100;
+    border: 1px;
+}
+.top{
+    width: 199px;
+    float: left;
+}
+p{
+    clear: both;
+}
